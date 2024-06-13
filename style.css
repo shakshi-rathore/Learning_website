@@ -1,0 +1,71 @@
+.bg-img1{
+    background: url('https://imgs.search.brave.com/-1jCKruN7gwasOH1SUfeiolOUbRG2axJ9b33vhK0dFU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZGFy/ay1sYXB0b3AtYmxh/Y2stY29tcHV0ZXIt/c2V0dXAta3BuZjRm/M285eWNncmV4dC5q/cGc');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img2{
+    background: url('img2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img3{
+    background: url('https://imgs.search.brave.com/F2m1H5nTdV79e03rXe5Fvg3GHbq7_FbdTSsya4o1Q78/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC8ydXR0MlFs/LmpwZw');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item{
+   height:88vh;
+   width: 100vw;
+}
+.navbar-brand{
+    font-family: 'dancing script',sans-serif;
+}
+.navbar .btn{
+    color: white;
+    margin-right: 3px;
+    border-color: white;
+}
+.navbar .btn:hover{
+    border-color: rgb(2, 148, 2);
+}
+
+.carousel-caption{
+    font-size: larger;
+}
+.d-flex .btn-danger{
+    margin-right: 3px;
+    border:none;
+}
+.d-flex .btn-danger:hover{
+    background-color: rgb(155, 76, 76);
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.card{
+    background-color: rgb(4, 101, 248);
+    color: white;
+    padding: 0.5rem;
+    margin: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgb(48, 42, 42);
+}
+@media screen and (max-width:1090px) {
+    .card-container{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width:770px)
+{
+    .carousel-item{
+        height:45vh;
+    }
+
+}

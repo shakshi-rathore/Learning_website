@@ -1,0 +1,13 @@
+.container{
+    width:90%;
+    margin: 10px auto;
+   background-color: white;
+}
+.container h1{
+    font-family: none;
+    color: rgb(60, 60, 248);
+    
+    font-weight: 700;
+}
+
+
